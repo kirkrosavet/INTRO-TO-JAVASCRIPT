@@ -29,6 +29,10 @@ console.log(`My name is ${firstName} ${lastName}`);
 //Find and log the length of a string stored in a variable.
 
 //Convert a string to a number and a number to a string, logging the results.
+const myname = "kirk";
+const mynu = "123";
+const mystring = number(myname);
+console.log(typeof myname);
 
 let age = (23)
 console.log(age)
@@ -72,3 +76,28 @@ function greet() {
 greeting.textContent =`hello ${name}, nice to see you`;
 }
 button.addEventListener("click", greet);
+
+const song = "take me to church"
+const score = 9;
+const heighscore =10;
+const output = `i like the song ${song}, i give it a score of ${(score / heighscore) * 100}%.`;
+console.log(output)
+
+const you = "boi";
+const number = 202;
+
+console.log(you + number)
+
+const myString = "212";
+const Mynum = Number(myString);
+console.log(typeof Mynum); 
+
+
+let quote = "to be or not to be "
+quote = quote.replaceAll("be", "kill");
+console.log(quote);
+
+
+const radData = "My NaMe Is blAKe";
+console.log(radData.toLowerCase());
+console.log(radData.toUpperCase());
